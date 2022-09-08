@@ -4,6 +4,7 @@
 /**
 * main - this is the starting point
 * description - there is only one function
+* return - zero
 */
 
 int main(void)
