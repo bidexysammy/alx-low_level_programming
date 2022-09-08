@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -E code.c -o c
+gcc -E export CFILE="code.c" -o 
+c
