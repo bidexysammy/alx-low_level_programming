@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -E code.c -o c
