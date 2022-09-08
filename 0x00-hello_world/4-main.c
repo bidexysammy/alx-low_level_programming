@@ -1,7 +1,8 @@
 #include <stdio.h>
 main()
 {
-   char S = ""Programming is like building a multilingual puzzle\n";
-   puts(char S, stdout);
+   char name;
+   name = ""Programming is like building a multilingual puzzle\n";
+   puts(name);
    return (0);
 }
