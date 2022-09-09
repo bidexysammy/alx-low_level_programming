@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main: this is important in every code
- * description: The function main is where the code begins
+ * main - this is important in every code
+ * description - The function main is where the code begins
  * return: zero is success
  */
 /* betty style doc for function main goes there */
@@ -17,8 +17,7 @@ int main(void)
 		printf("%d, is positive\n", n);
 	if (n < 0)
 		printf("%d, is negative\n", n);
-	else
+	if (n == 0)
 		printf("%d, is zero\n", n);
 	return (0);
 }
-
