@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
-/*
+/**
  * main - this is present in every program
- * description - the main function is where compiling starts
- * return - zero if success
+ *
+ * Description: the main function is where compiling starts
+ * Return: zero if success
  */
 int main(void)
 {
@@ -11,9 +12,13 @@ int main(void)
 	int m;
 
 	for (c = 'a'; c <= 'z'; c++)
+	{
 		putchar(c);
+	}
 	for (m = 'A'; m <= 'Z'; m++)
+	{
 		putchar(m);
-		putchar('\n');
+	}
+	putchar('\n');
 	return (0);
 }
