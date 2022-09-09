@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * Main: the main function must be present
- * and it very important
+ * main -  the main function must be present
+ *
  * Description: every program must contain the main function
  * because it is where the program starts
  * Return: zero if success
