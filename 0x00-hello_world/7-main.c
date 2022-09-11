@@ -1,5 +1,5 @@
 #include <stdio.h>
-main()
+int main(void)
 {
     printf("This is my code\n");
     return (0);
