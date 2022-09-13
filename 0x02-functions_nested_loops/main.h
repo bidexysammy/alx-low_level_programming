@@ -1,9 +1,1 @@
-int _putchar(const char a)
-{
-	const char a[ ]= "";
-}
-
-
-
-
-
+int _putchar(char *c);
