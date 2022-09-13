@@ -1,6 +1,9 @@
-int _putchar(char)
+int _putchar(const char a)
+{
+	const char a[ ]= "";
+}
 
-void print_alphabet(char)
+
 
 
 
