@@ -23,6 +23,23 @@ void print_to_98(int a)
 			}
 		}
 	}
+	else
+	{
+		for (; a >= 98; a--)
+		{
+			if (a == 98)
+			{
+				printf("%d", a);
+				printf("\n");
+				break;
+			}
+			else
+			{
+				printf("%d, ", a);
+			}
+		}
+	}
 }
+
 
 
