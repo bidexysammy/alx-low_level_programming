@@ -2,25 +2,15 @@
 /**
  * _islower - checks for lowercase
  *@c:int c is the argument
- * Return: two if success
+ * Return: one if lower and zero if not
  */
 int _islower(int c)
 {
-	int a, b;
-
-	a = 1;
-	b = 0;
-
-	if (_islower(c))
-	{
-		_putchar(a + '0');
-	}
+	if (c <= 97 && <= 122)
+		return (1);
 	else
-	{
-		_putchar(b + '0');
-	}
+		return (0);
 	_putchar('\n');
-	return (2);
 }
 
 
