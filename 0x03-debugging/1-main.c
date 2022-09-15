@@ -2,9 +2,7 @@
 
 /**
  * main - causes an infinite loop
- * Debugging: the part that causes the infinite
- * loop is between line 18 and 19 that ought to contain
- * an incremental i
+ *
  * Return: 0
  */
 
@@ -16,13 +14,12 @@ int main(void)
 
 	i = 0;
 
-	while (i < 10)
-	{
-		putchar(i);
-	}
+	/* while (i < 10) */
+	/*{ */
+	/*	putchar(i); */
+	/*} */
 
 	printf("Infinite loop avoided! \\o/\n");
 
 	return (0);
 }
-
