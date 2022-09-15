@@ -23,6 +23,7 @@ void print_line(int n)
 
 		_putchar(c);
 		_putchar('\n');
+		i++_
 	}
 	return (0);
 }
