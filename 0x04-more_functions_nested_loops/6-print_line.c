@@ -6,21 +6,19 @@
  */
 void print_line(int n)
 {
-	int c;
 	int i;
 
-
-	c = 95;
-	i = 0;
-
-	while (i < n)
+	if (n <= 0)
 	{
-		if (n <= 0)
-			_putchar('\n');
-		else
-			_putchar(c);
-		i++;
+		_putchar('\n');
 	}
+	else
+	{
+
+		for (x = 0; x < n; x++)
+			_putchar(95);
+		
 	_putchar('\n');
+	}
 	return (0);
 }
