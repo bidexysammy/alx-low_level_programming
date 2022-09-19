@@ -1,4 +1,6 @@
-#include "main.h'
+#include "main.h"
+#include <stdio.h>
+
 /**
  * print_array - prints array
  * @a: is the first argument
@@ -15,7 +17,9 @@ void print_array(int *a, int n)
 		if (b != (n - 1))
 		{
 			printf(", ");
+
 		}
 	}
 	printf("\n");
+
 }
