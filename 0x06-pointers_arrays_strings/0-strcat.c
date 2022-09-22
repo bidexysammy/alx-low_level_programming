@@ -10,26 +10,25 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int i;
-	char *ptr;
+	int i, j;
 
 	for (i = 0; dest[i]; i++)
 	{
 		while (dest[i] != '\0')
 		{
-			ptr = dest;
+			dest[i]++;
 		}
 	}
-	for (i = 0; src[i]; i++)
+	for (j = 0; src[j]; j++)
 	{
-		while (src[i] != '\0')
+		while (src[j] != '\0')
 		{
-			ptr = src;
+			dest[i] = src[j];
 		}
 
 	}
-	ptr[i] = '\0';
-	return (ptr);
+	dest[i] = '\0';
+	return (dest);
 	_putchar('\n');
 }
 
