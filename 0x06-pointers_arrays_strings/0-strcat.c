@@ -8,21 +8,27 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int i, m;
+	int i;
 	char *ptr;
 
 	dest = "Jesus";
 	src = "Christ!";
-	for (i = 0; *dest; i++)
+	for (i = 0; dest[i]; i++)
 	{
-		while (dest = '\0')
-			continue;
-		for (m = 0; *src; m++)
+		while (dest[i] != '\0')
 		{
-			_putchar(*ptr);
-
+			ptr = dest;
 		}
 	}
+	for (i = 0; src[i]; i++)
+	{
+		while (src[i] != '\0')
+		{
+			ptr = src;
+		}
+
+	}
+	ptr = '\0';
 	return (ptr);
 }
 
