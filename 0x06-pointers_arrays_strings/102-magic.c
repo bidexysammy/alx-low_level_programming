@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- *i main - is the main function
+ * main - is the main function
  *
+ * Description: is an important function
  * Return: void
  */
 
