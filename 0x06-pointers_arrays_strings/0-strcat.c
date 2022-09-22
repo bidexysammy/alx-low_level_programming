@@ -14,23 +14,16 @@ char *_strcat(char *dest, char *src)
 
 	for (i = 0; dest[i]; i++)
 	{
-		while (dest[i] = '\0')
-		{
-			continue;
-		}
-		dest[i]++;
+		;
 	}
 	for (j = 0; src[j]; j++)
 	{
-		while (src[j] = '\0')
-		{
-			break;
-		}
+
 		dest[i] = src[j];
 
 	}
 	dest[i] = '\0';
 	return (dest);
-	_putchar('\n');
+
 }
 
