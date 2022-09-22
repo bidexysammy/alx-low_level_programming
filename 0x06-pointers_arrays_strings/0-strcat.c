@@ -30,8 +30,8 @@ char *_strcat(char *dest, char *src)
 		}
 
 	}
-	ptr = '\0';
-	_putchar(10);
+	ptr[i] = '\0';
 	return (ptr);
+	_putchar('\n');
 }
 
