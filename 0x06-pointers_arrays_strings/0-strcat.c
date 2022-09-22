@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <string.h>
 #include "main.h"
 /**
@@ -6,6 +7,7 @@
  * @src: is the second argument
  * Return: pointer to dest
  */
+
 char *_strcat(char *dest, char *src)
 {
 	int i;
@@ -29,6 +31,7 @@ char *_strcat(char *dest, char *src)
 
 	}
 	ptr = '\0';
+	_putchar(10);
 	return (ptr);
 }
 
