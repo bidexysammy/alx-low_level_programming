@@ -9,12 +9,11 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	struct dog s;
 
-	d = &s;
-	s.name = "Taiwo";
-	s.age = 23.00;
-	s.owner = "Samson";
+	d->name = name;
+	d->age = age;
+	d->owner = owner;
+
 }
 
 
