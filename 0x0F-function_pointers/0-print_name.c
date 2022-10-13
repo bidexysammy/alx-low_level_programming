@@ -8,14 +8,7 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	int i = 0;
+	if (name != NULL && f != NULL)
+		f(name);
 
-
-	while (name[i] != '\0')
-	{
-		_putchar(name[i]);
-		name[i]++;
-	
-	}
-	_putchar('\0');
 }
