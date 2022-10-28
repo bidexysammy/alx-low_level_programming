@@ -1,1 +1,1 @@
-This directory contains the low level programming tasks from ALX
+This directory is for linked lists
